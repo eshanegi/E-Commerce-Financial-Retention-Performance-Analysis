@@ -139,31 +139,36 @@ The dashboard provides an executive overview of the store's financial and custom
 ## 8. Repository Structure
 
 ```text
-E-Commerce-Data-Analysis/
+E-Commerce-Financial-Retention-Performance-Analysis/
 │
-├── Dataset/
-│   ├── Raw Data
-│   └── Cleaned Data
+├── SQL Code/
+│   └── SQL.sql
 │
-├── Excel-VBA/
-│   └── Data Cleaning & Automation
+├── VBA code/
+│   ├── Data Formatting.bas
+│   └── Importing multiple files.bas
 │
-├── SQL/
-│   └── Analysis Queries
+├── Business Financial Performance Dashboard
 │
-├── Tableau/
-│   └── Dashboard
-│
-├── Report/
-│   └── Project Report.pdf
-│
-├── Presentation/
-│   └── Project Presentation.pptx
-│
+├── LICENSE
+├── Project Presentation.pdf
+├── Project Report.pdf
 └── README.md
 ```
 
-## 9. How to Run
+## 9. Folder & File Description
+
+| File / Folder | Description |
+|---|---|
+| **SQL Code/** | PostgreSQL queries for financial and retention analysis |
+| **VBA code/** | VBA macros for data importing and formatting |
+| **Business Financial Performance Dashboard** | Interactive Tableau dashboard |
+| **Project Presentation.pdf** | Summary of project insights and findings |
+| **Project Report.pdf** | Detailed project methodology, analysis and results |
+| **LICENSE** | Project licensing information |
+| **README.md** | Project overview, workflow and documentation |
+
+## 10. How to Run
 
 1. Clone or download this repository.
 2. Import the cleaned datasets into PostgreSQL.
@@ -172,7 +177,7 @@ E-Commerce-Data-Analysis/
 5. Open the Tableau workbook to explore the interactive dashboard.
 6. Refer to the project report and presentation for detailed findings and recommendations.
 
-## 10. Skills Demonstrated
+## 11. Skills Demonstrated
 
 - Data Cleaning & Preparation
 - Excel Automation using VBA
